@@ -24,6 +24,10 @@ img {
     width: 28%;
 }
 
+.ventas a .single-wid-product h2{
+    color: black;
+}
+
 .fix { overflow: hidden }
 h1,
 h2,
@@ -635,6 +639,7 @@ padding: 35px 0 180px;}
     margin-top: 25px;
 }
 a {color: white}
+.ventas{color: #000;}
 /*a:hover, a:focus {color: #17a78b}*/
 .footer-bottom-area {
   background: none repeat scroll 0 0 #000;
