@@ -217,7 +217,7 @@ img{
     position: relative;
     width: 100vh;
     height: 50vh;
-    min-height: 625px;
+    min-height: 488px;
     padding: 10px;
     /*overflow: hidden;*/
 }
@@ -237,35 +237,6 @@ img{
     text-align: center;
     margin-left: 25%;
 }
-
-@-webkit-keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-250px * 7));
-    }
-  }
-  
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(calc(-850px * 7));
-    }
-  }
-  .slider {
-    margin: auto;
-    overflow: hidden;
-  }
-
-  .slider .slide-track {
-    -webkit-animation: scroll 90s linear infinite;
-            animation: scroll 90s linear infinite;
-    display: flex;
-    width: calc(135px * 14);
-  }
 
 /*=================================
     ESTILOS: categorias home
