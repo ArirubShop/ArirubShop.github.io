@@ -215,13 +215,14 @@ img{
 ==================================*/
 .hm-banner{
     position: relative;
-    width: 100%;
-    height: 600px;
-    min-height: 600px;
-    overflow: hidden;
+    width: 100vh;
+    height: 50vh;
+    min-height: 625px;
+    padding: 10px;
+    /*overflow: hidden;*/
 }
 
-.hm-banner a{
+/*.hm-banner a{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -230,31 +231,41 @@ img{
     bottom: 0;
     right: 0;
     z-index: 20;
+}*/
+
+.hm-banner .img-banner img{
+    text-align: center;
+    margin-left: 25%;
 }
 
-.hm-banner .img-banner{
-    height: 100%;
-}
+@-webkit-keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-850px * 7));
+    }
+  }
+  .slider {
+    margin: auto;
+    overflow: hidden;
+  }
 
-.slider-container {
+  .slider .slide-track {
+    -webkit-animation: scroll 90s linear infinite;
+            animation: scroll 90s linear infinite;
     display: flex;
-    width: 100%;
-    height: 100vh;
-    overflow-x: scroll;
-  
-    /* Vamos a añadir esto 👇 */
-    scroll-snap-type: x mandatory;
+    width: calc(135px * 14);
   }
-  
-  .slider-container img {
-    flex: 0 0 100%;
-    width: 100%;
-    object-fit: cover;
-  
-    /* Vamos a añadir esto 👇 */
-    scroll-snap-align: center;
-  }
-
 
 /*=================================
     ESTILOS: categorias home
