@@ -310,6 +310,30 @@ img{
     text-align: center;
 }
 
+.sub-categories{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.Inteligente{
+    padding-top: 25px;
+}
+
+.divison{
+	align-content: center;
+   }
+
+   .linea {
+	margin:0px 20px;
+	width: 99%;    
+	border-top:5px solid #999;
+	position: relative;
+	top:10px;
+	float:left;
+	align-content: center;
+	}
+
+
 
 /*=================================
     ESTILOS: Productos destacados
