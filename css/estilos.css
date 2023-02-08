@@ -573,6 +573,26 @@ footer .foo-row .foo-col ul li a:hover{
     font-weight: 300;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #38B5FD; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0798ac; 
+  }
+
 
 
 /*=================================
