@@ -46,10 +46,9 @@ ul,ol{
 }
 
 img{
-    width: 100%;
+    width: 95%;
+    margin-left: 50px;
     height: 100%;
-    object-fit: cover;
-    vertical-align: middle;
     border-style: none;
 }
 
